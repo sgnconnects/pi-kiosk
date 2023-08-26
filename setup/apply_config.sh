@@ -6,4 +6,4 @@ cp "./autoconfig.js" "/usr/lib/firefox-esr/defaults/pref"
 cp "./firefox.cfg" "/usr/lib/firefox-esr/"
 
 # Autostart config
-cp "./autostart" "/etc/xdg/lxsession/LXDE-pi"
+cp "./autostart" "/etc/xdg/lxsession/LXDE-mainhost"
