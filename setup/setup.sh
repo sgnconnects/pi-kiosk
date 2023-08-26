@@ -1,5 +1,5 @@
 #!/bin/bash
-
+sudo apt-get update  && sudo apt-get full-upgrade -y
 VAR_COUNTRY="ZA"
 VAR_TIMEZONE="Africa/Johannesburg" # timedatectl list-timezones
 VAR_KEYMAP="US"
