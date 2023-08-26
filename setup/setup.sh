@@ -1,10 +1,10 @@
 #!/bin/bash
 
-VAR_COUNTRY="DE"
-VAR_TIMEZONE="Europe/Berlin" # timedatectl list-timezones
-VAR_KEYMAP="de"
+VAR_COUNTRY="ZA"
+VAR_TIMEZONE="Africa/Johannesburg" # timedatectl list-timezones
+VAR_KEYMAP="US"
 VAR_LOCALE="de_DE.UTF-8 UTF-8" # /usr/share/i18n/SUPPORTED
-VAR_HOSTNAME="raspikiosk"
+VAR_HOSTNAME="mainhost"
 
 # Check for root permissions
 if [ "$EUID" -ne 0 ]; then
