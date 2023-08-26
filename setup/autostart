@@ -1,4 +1,4 @@
-@lxpanel --profile LXDE-pi
-@pcmanfm --desktop --profile LXDE-pi
+@lxpanel --profile LXDE-mainhost
+@pcmanfm --desktop --profile LXDE-mainhost
 @firefox --kiosk --private-window https://google.com
 @unclutter
