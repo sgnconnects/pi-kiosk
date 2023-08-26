@@ -95,8 +95,8 @@ sudo ./apply_config.sh
 ufw enable
 
 # Change pi user password
-echo "Changing password for user \"pi\""
-passwd pi
+echo "Changing password for user \"mainhost\""
+passwd 12345
 
 # Require password for sudo
 echo -e "pi ALL=(ALL) PASSWD: ALL\n" > /etc/sudoers.d/010_pi-nopasswd
